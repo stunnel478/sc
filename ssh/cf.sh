@@ -14,11 +14,11 @@ LIGHT='\033[0;37m'
 echo "Checking VPS"
 clear
 apt install jq curl -y
-DOMAIN=worldssh.tech
+DOMAIN=sshcf.xyz
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.worldssh.tech
-CF_ID=neza.afdhan@gmail.com
-CF_KEY=c7ce6739f7548dcb626dcbee71140345f2625
+SUB_DOMAIN=${sub}.sshcf.xyz
+CF_ID=baxiamania@gmail.com
+CF_KEY=e790e6961a311853568fbccd227e043533482
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
