@@ -44,7 +44,7 @@ mkdir /var/lib/akbarstorevpn;
 echo "IP=" >> /var/lib/akbarstorevpn/ipvps.conf
 wget https://${akbarvpn}/cf.sh && chmod +x cf.sh && ./cf.sh
 #install v2ray
-#wget https://${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
+wget https://${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
 #install ssh ovpn
 wget https://${akbarvpn}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 #wget https://${akbarvpnn}/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
@@ -66,7 +66,7 @@ rm -f /root/ssh-vpn.sh
 #rm -f /root/wg.sh
 #rm -f /root/ss.sh
 #rm -f /root/ssr.sh
-#rm -f /root/ins-xray.sh
+rm -f /root/ins-xray.sh
 #rm -f /root/ipsec.sh
 #rm -f /root/set-br.sh
 rm -f /root/edu.sh
