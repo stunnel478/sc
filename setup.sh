@@ -19,26 +19,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/ssh"
+akbarvpn="raw.githubusercontent.com/stunnel478/sc/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/sstp"
+akbarvpnn="raw.githubusercontent.com/stunnel478/sc/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/ssr"
+akbarvpnnn="raw.githubusercontent.com/stunnel478/sc/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/stunnel478/sc/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/stunnel478/sc/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/stunnel478/sc/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/stunnel478/sc/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/stunnel478/sc/main/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/stunnel478/sc/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/ohp"
-
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/stunnel478/sc/main/ohp"
 echo "Checking VPS"
 clear
 mkdir /var/lib/akbarstorevpn;
