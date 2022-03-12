@@ -16,7 +16,7 @@ clear
 # By Akbar Maulana
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/ssh"
+akbarvpn="raw.githubusercontent.com/stunnel478/sc/main/ssh"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
