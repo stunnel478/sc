@@ -162,9 +162,9 @@ cat > /etc/xray/config.json << END
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
+        "network": "tcp",
+        "security": "xtls",
+        "xtlsSettings": {
           "certificates": [
             {
               "certificateFile": "${path_crt}",
@@ -172,10 +172,10 @@ cat > /etc/xray/config.json << END
             }
           ]
         },
-        "tcpSettings": {},
+        "wsSettings": {},
         "kcpSettings": {},
         "httpSettings": {},
-        "wsSettings": {
+        "tcpSettings": {
           "path": "/vless/",
           "headers": {
             "Host": ""
@@ -188,7 +188,7 @@ cat > /etc/xray/config.json << END
         "enabled": true,
         "destOverride": [
           "http",
-          "tls"
+          "xtls"
         ]
       }
     },
@@ -205,13 +205,13 @@ cat > /etc/xray/config.json << END
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "none",
         "tlsSettings": {},
-        "tcpSettings": {},
+        "wsSettings": {},
         "kcpSettings": {},
         "httpSettings": {},
-        "wsSettings": {
+        "tcpSettings": {
           "path": "/vless/",
           "headers": {
             "Host": ""
@@ -223,7 +223,7 @@ cat > /etc/xray/config.json << END
         "enabled": true,
         "destOverride": [
           "http",
-          "tls"
+          "xtls"
         ]
       }
     },
