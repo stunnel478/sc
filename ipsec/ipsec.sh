@@ -20,7 +20,7 @@ echo "Checking VPS"
 clear
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/ipsec"
+akbarvpn="raw.githubusercontent.com/stunnel478/sc/main/ipsec"
 
 VPN_IPSEC_PSK='myvpn'
 NET_IFACE=$(ip -o $NET_IFACE -4 route show to default | awk '{print $5}');
