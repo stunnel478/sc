@@ -15,7 +15,7 @@ LIGHT='\033[0;37m'
 echo "Checking VPS"
 clear
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/ssr"
+akbarvpn="raw.githubusercontent.com/stunnel478/sc/main/ssr"
 
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
