@@ -16,7 +16,7 @@ LIGHT='\033[0;37m'
 echo "Checking VPS"
 clear
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/zahwanugrah/sc/ipuk/shadowsocks"
+akbarvpn="raw.githubusercontent.com/stunnel478/sc/main/shadowsocks"
 
 source /etc/os-release
 OS=$ID
