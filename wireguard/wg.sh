@@ -20,7 +20,7 @@ echo "Checking VPS"
 clear
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/myridwan/sc/ipuk/wireguard"
+akbarvpn="raw.githubusercontent.com/stunnel478/sc/main/wireguard"
 
 # Check OS version
 if [[ -e /etc/debian_version ]]; then
