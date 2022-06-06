@@ -46,11 +46,11 @@ systemctl enable ws-nontls
 systemctl restart ws-nontls
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/ws-ovpn https://${akbarvpn}/ws-ovpn.py
+wget -q -O /usr/local/bin/ws-ovpn https://${akbarvpn}/ws-ntlss.py
 chmod +x /usr/local/bin/ws-ovpn
 
 # Installing Service
-cat > /etc/systemd/system/ws-ovpn.service << END
+cat > /etc/systemd/system/ws-ntlss.service << END
 [Unit]
 Description=Python Proxy Mod By LamVpn
 Documentation=https://t.me/LamVpn
@@ -62,7 +62,7 @@ User=root
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
-ExecStart=/usr/bin/python -O /usr/local/bin/ws-ovpn 8280
+ExecStart=/usr/bin/python -O /usr/local/bin/ws-ntlss 8280
 Restart=on-failure
 
 [Install]
@@ -70,8 +70,8 @@ WantedBy=multi-user.target
 END
 
 systemctl daemon-reload
-systemctl enable ws-ovpn
-systemctl restart ws-ovpn
+systemctl enable ws-ntlss
+systemctl restart ws-ntlss
 
 # Getting Proxy Template
 wget -q -O /usr/local/bin/ws-tls https://${akbarvpn}/ws-tls
