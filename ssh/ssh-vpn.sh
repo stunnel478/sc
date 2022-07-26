@@ -553,5 +553,19 @@ rm -f /root/key.pem
 rm -f /root/cert.pem
 rm -f /root/ssh-vpn.sh
 
+cat >/home/vps/public_html/ssh.json <<END
+{
+	"OpenSSH" : "22",
+	"Dropbear" : "109, 110, 143, 456",
+	"SSH SSL" : "222, 443, 777, 990",
+	"Squid" : "3128, 8080",
+	"Websocket" : "80, 443",
+	"Badvpn UDPGW" : "7100, 7200, 7300, 7400, 7500, 7600, 7700, 7800, 7900"
+}
+END
+
+mkdir /home/ssh
 # finihsing
 clear
+neofetch
+netstat -nutlp
